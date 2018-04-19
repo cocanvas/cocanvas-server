@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Colour:</strong>
+  <%= @coordinate.colour %>
+</p>
+
+<p>
+  <strong>X:</strong>
+  <%= @coordinate.x %>
+</p>
+
+<p>
+  <strong>Y:</strong>
+  <%= @coordinate.y %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @coordinate.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_coordinate_path(@coordinate) %> |
+<%= link_to 'Back', coordinates_path %>
