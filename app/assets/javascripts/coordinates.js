@@ -118,7 +118,7 @@ $(document).ready( function () {
       $.ajax('/coordinates', {
       method: 'post',
       dataType: 'json', // data type you want back
-      data: {coordinate: {x: deets.x, y: deets.y, colour: deets.colour, user_id: 'test'}} // what you're sending - needs to be a json object? needs a madeup key for each value
+      data: {coordinate: {x: deets.x, y: deets.y, colour: deets.colour, user_id: 1}} // what you're sending - needs to be a json object? needs a madeup key for each value
       }).done(function(response) {
         console.log(`response back from postInfo ajax request was: ${response}`);
         }).fail(function() {
