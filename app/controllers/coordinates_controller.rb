@@ -25,13 +25,13 @@ class CoordinatesController < ApplicationController
   # POST /coordinates.json
   def create
     @coordinate = Coordinate.new(coordinate_params)
-
     respond_to do |format|
       if @coordinate.save
-        format.html { redirect_to @coordinate, notice: 'Coordinate was successfully created.' }
-        format.json { render :show, status: :created, location: @coordinate }
+        # format.html { redirect_to @coordinate, notice: 'Coordinate was successfully created.' }
+        # format.json { render :show, status: :created, location: @coordinate }
+        render :json => @coordinate
       else
-        format.html { render :new }
+        # format.html { render :new }
         format.json { render json: @coordinate.errors, status: :unprocessable_entity }
       end
     end
