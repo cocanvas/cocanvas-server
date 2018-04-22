@@ -1,5 +1,7 @@
 class CoordinatesController < ApplicationController
   before_action :set_coordinate, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_request, only: [:edit, :update, :destroy, :new, :create]
+
 
   # GET /coordinates
   # GET /coordinates.json
@@ -29,8 +31,8 @@ class CoordinatesController < ApplicationController
       if @coordinate.save
         format.html do
           redirect_to @coordinate
-       # auto previous code: { redirect_to @coordinate, notice: 'Coordinate was successfully created.' }
-          end
+          # auto previous code: { redirect_to @coordinate, notice: 'Coordinate was successfully created.' }
+        end
         format.json { render json: @coordinate.to_json }
         # auto previous code: format.json { render :show, status: :created, location: @coordinate }
         # Kat's previous code: render :json => @coordinate
@@ -66,13 +68,14 @@ class CoordinatesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_coordinate
-      @coordinate = Coordinate.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def coordinate_params
-      params.require(:coordinate).permit(:colour, :x, :y, :user_id)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_coordinate
+    @coordinate = Coordinate.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def coordinate_params
+    params.require(:coordinate).permit(:colour, :x, :y, :user_id)
+  end
 end
