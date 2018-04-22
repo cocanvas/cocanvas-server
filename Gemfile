@@ -29,7 +29,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-gem 'rack-cors'
+gem 'jwt'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'simple_command'
 
 gem 'jquery-rails'
 

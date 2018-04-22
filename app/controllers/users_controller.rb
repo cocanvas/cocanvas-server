@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  # before_action :set_user, only: [:show, :edit, :update, :destroy]
+
+  skip_before_action :authenticate_request, only: %i[login signup]
 
   # GET /users
   # GET /users.json
@@ -61,14 +63,46 @@ class UsersController < ApplicationController
     end
   end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_user
-      @user = User.find(params[:id])
+  ########### Login/signup/auth stuff ##############3
+  def signup
+    @user = User.create(user_params)
+    if @user.save
+      response = { message: 'User created successfully' }
+      render json: response, status: :created
+    else
+      render json: @user.errors, status: :bad
     end
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
+  def login
+    authenticate params[:username], params[:password]
+  end
+
+  def test
+    render json: {
+      message: 'You have passed authentication and authorization test'
+    }
+  end
+  private
+
+    # def set_user
+    #   @user = User.find(params[:id])
+    # end
+
+  def authenticate(username, password)
+    command = AuthenticateUser.call(username, password)
+
+    if command.success?
+      render json: {
+        access_token: command.result,
+        message: 'Login Successful'
+      }
+    else
+      render json: { error: command.errors }, status: :unauthorized
+    end
+  end
+
     def user_params
-      params.require(:user).permit(:username, :password_digest)
+      params.require(:user).permit(:username, :password, :password_confirmation)
     end
 end

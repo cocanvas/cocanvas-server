@@ -24,7 +24,10 @@ module CocanvasServer
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    config.eager_load_paths << Rails.root.join('lib')
 
+    #autoloads lib folder during development
+    config.autoload_paths << Rails.root.join('lib')
     # Don't generate system test files.
     config.generators.system_tests = nil
   end
