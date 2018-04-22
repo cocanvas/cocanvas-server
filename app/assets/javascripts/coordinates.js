@@ -130,6 +130,8 @@ $(document).ready( function () {
 
 
   } else {
+
     // canvas-unsupported code here
+    
   }
 });
