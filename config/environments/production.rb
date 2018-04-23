@@ -89,4 +89,12 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.websocket_server_url = 'wss://cocanvas-server.herokuapp.com/cable'
+  config.action_cable.allowed_request_origins = [
+    # Address of our Ruby on Rails App
+    'https://cocanvas-server.herokuapp.com',
+    # Address of our JS App
+    'https://amandytang.github.io/cocanvas-js/'
+  ]
 end
