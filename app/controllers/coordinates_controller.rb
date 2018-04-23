@@ -1,8 +1,5 @@
 class CoordinatesController < ApplicationController
   before_action :set_coordinate, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_request, only: [:edit, :update, :destroy, :new, :create]
-
-
   # GET /coordinates
   # GET /coordinates.json
   def index
