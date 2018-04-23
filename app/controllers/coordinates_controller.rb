@@ -3,7 +3,13 @@ class CoordinatesController < ApplicationController
   # GET /coordinates
   # GET /coordinates.json
   def index
-    @coordinates = Coordinate.all
+    # @coordinates = Coordinate.all
+    @coords_num = Coordinate.count
+    if @coords_num >= 4801
+      @latest_coords = Coordinate.find(:all, :order => "id desc", :limit => 4800).reverse
+    else
+      @latest_coords = Coordinate.all
+    end
   end
 
   # GET /coordinates/1
