@@ -20,6 +20,8 @@
 #
 
 Rails.application.routes.draw do
+  mount ActionCable.server => '/cable'
+
   get 'pages/index'
   root to: 'pages#index'
   resources :coordinates
@@ -30,6 +32,5 @@ Rails.application.routes.draw do
   get 'test', to: 'users#test'
   resources :users
 
-  mount ActionCable.server => '/cable'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
