@@ -5,8 +5,8 @@ class CoordinatesController < ApplicationController
   def index
     # @coordinates = Coordinate.all
     @coords_num = Coordinate.count
-    if @coords_num >= 20
-      @latest_coords = Coordinate.order('created_at DESC').limit(20).reverse
+    if @coords_num >= 4800
+      @latest_coords = Coordinate.order('created_at DESC').limit(4800).reverse
     else
       @latest_coords = Coordinate.all
     end
