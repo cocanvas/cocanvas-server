@@ -11,7 +11,7 @@ Rails.application.configure do
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
-  config.consider_all_requests_local       = false
+  config.consider_all_requests_local = false
   config.action_controller.perform_caching = true
 
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
@@ -53,7 +53,7 @@ Rails.application.configure do
   config.log_level = :debug
 
   # Prepend all log lines with the following tags.
-  config.log_tags = [ :request_id ]
+  config.log_tags = [:request_id]
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -82,20 +82,22 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
-    logger           = ActiveSupport::Logger.new(STDOUT)
+    logger = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
-    config.logger    = ActiveSupport::TaggedLogging.new(logger)
+    config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
   # config.action_cable.url = "wss://#{ENV['RAILS_HOST']}/cable"
-  config.websocket_server_url = "wss://#{ENV['RAILS_HOST']}/cable"
-  config.action_cable.allowed_request_origins = [
-    # Address of our Ruby on Rails App
-    "wss://#{ENV['RAILS_HOST']}/cable",
-    # Address of our JS App
-    'https://amandytang.github.io/cocanvas-js/'
-  ]
+  # config.websocket_server_url = "wss://#{ENV['RAILS_HOST']}/cable"
+  # config.action_cable.allowed_request_origins = [
+  #   # Address of our Ruby on Rails App
+  #   "wss://#{ENV['RAILS_HOST']}/cable",
+  #   # Address of our JS App
+  #   'https://amandytang.github.io/cocanvas-js/'
+  # ]
+  config.action_cable.url = 'wss://cocanvas-server.com/cable'
+  config.action_cable.allowed_request_origins = ['https://amandytang.github.io/cocanvas-js', /http:\/\/amandytang.*/]
 end
