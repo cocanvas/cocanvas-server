@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   # protect_from_forgery with: :exception
-
-  before_action :authenticate_request, only: [:edit, :update, :destroy, :new, :create]
+#test
+  # before_action :authenticate_request, only: [:edit, :update, :destroy, :new, :create]
 
   attr_reader :current_user
 
