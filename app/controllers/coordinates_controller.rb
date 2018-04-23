@@ -6,8 +6,9 @@ class CoordinatesController < ApplicationController
     # @coordinates = Coordinate.all
     @coords_num = Coordinate.count
     if @coords_num >= 4801
-      # need new
-      # @latest_coords = Coordinate.all(:order => "id desc", :limit => 4800).reverse
+
+      @latest_coords = Coordinate.order('created_at DESC').limit(4800).reverse
+
     else
       @latest_coords = Coordinate.all
     end
