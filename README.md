@@ -3,7 +3,7 @@
 
 [CoCanvas](https://amandytang.github.io/cocanvas-js/) is a cooperative, pixel art drawing game by Katrina Hayes, Mandy Tang, Rob Harkness and Vu Le. Share the site with friends to create your own masterpiece!
 
-![CoCanvas Screenshot](apps/assets/images/screenshot.png)
+![CoCanvas Screenshot](https://github.com/amandytang/cocanvas-server/blob/master/app/assets/images/screenshot.png)
 <br/>
 
 ## Features
