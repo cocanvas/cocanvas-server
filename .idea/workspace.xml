@@ -20,8 +20,8 @@
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="94" column="174" lean-forward="true" selection-start-line="94" selection-start-column="174" selection-end-line="94" selection-end-column="197" />
+            <state relative-caret-position="767">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -363,15 +363,15 @@
       <workItem from="1524309345180" duration="64000" />
       <workItem from="1524380181126" duration="74000" />
       <workItem from="1524380274327" duration="12411000" />
-      <workItem from="1524469312523" duration="18388000" />
+      <workItem from="1524469312523" duration="18701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33303000" />
+    <option name="totallyTimeSpent" value="33616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1572" height="1049" extended-state="5" />
+    <frame x="0" y="0" width="1572" height="1049" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -654,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="94" column="174" lean-forward="true" selection-start-line="94" selection-start-column="174" selection-end-line="94" selection-end-column="197" />
+        <state relative-caret-position="767">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
