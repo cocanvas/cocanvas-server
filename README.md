@@ -1,29 +1,25 @@
 # CoCanvas App
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[CoCanvas](https://amandytang.github.io/cocanvas-js/) is a cooperative, pixel art drawing game by Katrina Hayes, Mandy Tang, Rob Harkness and Vu Le. Share the site with friends to create your own masterpiece!
 
-Things you may want to cover:
+![CoCanvas Screenshot](apps/assets/images/screenshot.png)
+<br/>
 
-* Ruby version
+## Features
+* User registration
+* Live chat
+* Live drawing on canvas
 
-* System dependencies
+## Possible Improvements
+* Galleries
+* Image Saving
 
-* Configuration
+## Acknowledgements
+A big thanks to all team members as well as the teaching staff at GA.
 
-* Database creation
+## Technologies Used
+Built using Ruby on Rails with a vanilla front-end.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-
-Vu test
+## License
+Licensed under MIT.
