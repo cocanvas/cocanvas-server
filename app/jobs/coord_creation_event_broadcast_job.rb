@@ -2,7 +2,7 @@ class CoordCreationEventBroadcastJob < ApplicationJob
   queue_as :default
 
   def perform(coord)
-    # coord = coordinate.coordinate
+
     ActionCable
       .server
       .broadcast('coord_channel',
