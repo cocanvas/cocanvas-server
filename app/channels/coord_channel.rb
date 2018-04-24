@@ -7,7 +7,7 @@ class CoordChannel < ApplicationCable::Channel
   end
 
   def create(opts)
-    coord= opts['coordinate']
+    coord = opts['coordinate']
     Coordinate.create(colour: coord.fetch('colour'),
                       x: coord.fetch('x'),
                       y: coord.fetch('y'),
