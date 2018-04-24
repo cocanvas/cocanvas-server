@@ -98,6 +98,6 @@ Rails.application.configure do
   #   # Address of our JS App
   #   'https://amandytang.github.io/cocanvas-js/'
   # ]
-  config.action_cable.url = 'wss://cocanvas-server.com/cable'
-  config.action_cable.allowed_request_origins = ['https://amandytang.github.io/cocanvas-js', /http:\/\/amandytang.*/]
+  config.action_cable.url = 'wss://cocanvas-server.herokuapp.com/cable'
+  config.action_cable.allowed_request_origins = ['https://amandytang.github.io', 'https://amandytang.github.io']
 end
