@@ -101,9 +101,7 @@ Rails.application.configure do
   # config.middleware.use ActionCable
   #
 
-  ENV["REDISTOGO_URL"] = 'redis://redistogo:b2607324ea72ea7fb628c9b46357756b@albacore.redistogo.com:10232/'
-
-  config.action_cable.url = 'wss://cocanvas-server.herokuapp.com/cable'
+  config.action_cable.url = 'https://cocanvas-server.herokuapp.com/cable'
 
   config.action_cable.allowed_request_origins = ['https://cocanvas-server.herokuapp.com, https://amandytang.github.io/cocanvas-js', 'http://amandytang.github.io/cocanvas-js']
 end
