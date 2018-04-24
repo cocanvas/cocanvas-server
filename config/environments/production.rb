@@ -92,5 +92,5 @@ Rails.application.configure do
 
   config.action_cable.url = 'https://cocanvas-server.herokuapp.com/cable'
 
-  config.action_cable.allowed_request_origins = ['https://cocanvas-server.herokuapp.com', 'https://amandytang.github.io/cocanvas-js','https://amandytang.github.io', 'http://amandytang.github.io/cocanvas-js','http://localhost','127.0.0.1']
+  config.action_cable.allowed_request_origins = ['https://cocanvas-server.herokuapp.com', 'https://amandytang.github.io/cocanvas-js','https://amandytang.github.io', 'http://amandytang.github.io/cocanvas-js','http://localhost:5500','127.0.0.1']
 end
