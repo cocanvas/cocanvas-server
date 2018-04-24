@@ -22,8 +22,8 @@
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="710">
+              <caret line="94" column="236" selection-start-line="94" selection-start-column="236" selection-end-line="94" selection-end-column="236" />
             </state>
           </provider>
         </entry>
@@ -365,12 +365,12 @@
       <workItem from="1524309345180" duration="64000" />
       <workItem from="1524380181126" duration="74000" />
       <workItem from="1524380274327" duration="12411000" />
-      <workItem from="1524469312523" duration="19195000" />
+      <workItem from="1524469312523" duration="19825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34110000" />
+    <option name="totallyTimeSpent" value="34740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1572" height="1049" extended-state="4" />
@@ -656,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="710">
+          <caret line="94" column="236" selection-start-line="94" selection-start-column="236" selection-end-line="94" selection-end-column="236" />
         </state>
       </provider>
     </entry>
