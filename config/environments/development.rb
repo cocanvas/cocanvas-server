@@ -52,13 +52,14 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.action_cable.url = 'http://localhost:3001/cable'
-  config.web_socket_server_url = 'ws://localhost:3001/cable'
-  config.action_cable.allowed_request_origins = [
-    # Local address of our RoR server
-    'http://localhost:3000',
-    # Local address we use for our React standalone client
-    'http://localhost:5500',
-    'http://127.0.0.1:5500'
-  ]
+  # config.action_cable.url = 'http://localhost:3001/cable'
+  # config.web_socket_server_url = 'ws://localhost:3001/cable'
+  # config.action_cable.allowed_request_origins = [
+  #   # Local address of our RoR server
+  #   'http://localhost:3000',
+  #   # Local address we use for our React standalone client
+  #   'http://localhost:5500',
+  #   'http://127.0.0.1:5500'
+  # ]
+  ENV["REDISTOGO_URL"] = 'redis://redistogo:b2607324ea72ea7fb628c9b46357756b@albacore.redistogo.com:10232/'
 end
