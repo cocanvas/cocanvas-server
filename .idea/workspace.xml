@@ -53,20 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="development.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="748">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cable.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cable.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/cable.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="10" column="87" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="87" />
+            <state relative-caret-position="190">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -129,7 +129,6 @@
         <option value="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/coordinate.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/cable.yml" />
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/environments/environment.rb" />
         <option value="$PROJECT_DIR$/config/initializers/redis.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
       </list>
     </option>
   </component>
@@ -371,18 +371,17 @@
       <workItem from="1524309345180" duration="64000" />
       <workItem from="1524380181126" duration="74000" />
       <workItem from="1524380274327" duration="12411000" />
-      <workItem from="1524469312523" duration="12354000" />
+      <workItem from="1524469312523" duration="12795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27269000" />
+    <option name="totallyTimeSpent" value="27710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1049" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1572" height="1049" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5251641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31454784" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -636,17 +635,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="190">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="10" column="87" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="87" />
+        <state relative-caret-position="748">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
