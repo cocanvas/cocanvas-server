@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/redis.rb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="710">
+              <caret line="94" column="173" selection-start-line="94" selection-start-column="173" selection-end-line="94" selection-end-column="173" />
             </state>
           </provider>
         </entry>
@@ -366,15 +365,15 @@
       <workItem from="1524309345180" duration="64000" />
       <workItem from="1524380181126" duration="74000" />
       <workItem from="1524380274327" duration="12411000" />
-      <workItem from="1524469312523" duration="16941000" />
+      <workItem from="1524469312523" duration="18139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31856000" />
+    <option name="totallyTimeSpent" value="33054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1572" height="1049" extended-state="4" />
+    <frame x="0" y="0" width="1572" height="1049" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -657,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="710">
+          <caret line="94" column="173" selection-start-line="94" selection-start-column="173" selection-end-line="94" selection-end-column="173" />
         </state>
       </provider>
     </entry>
