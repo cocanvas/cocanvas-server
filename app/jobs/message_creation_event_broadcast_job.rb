@@ -7,7 +7,7 @@ class MessageCreationEventBroadcastJob < ApplicationJob
       .broadcast(
         'chat_channel',
         # user_id: msg.user_id,
-        username: msg.user.username,
+        username: User.find_by_id(user_id).username,
         content: msg.content,
         created_at: msg.created_at.strftime('%H:%M:%S')
       )
