@@ -3,7 +3,6 @@ class ChatMessagesController < ApplicationController
 
   def index
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
-    # @latest_messages.created_at = .created_at.strftime('%l:%M %p')
     render json: @latest_messages.to_json
   end
 
