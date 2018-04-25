@@ -3,7 +3,7 @@ class CoordinatesController < ApplicationController
 
   def index
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
-    render json: @latest_messages
+
   end
 
   def create
@@ -29,7 +29,7 @@ class CoordinatesController < ApplicationController
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.
-  def coordinate_params
+  def chat_message_params
     params.require(:chat_message).permit(:content, :user_id)
   end
 end
