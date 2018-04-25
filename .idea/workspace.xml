@@ -42,8 +42,8 @@
           <file leaf-file-name="message_creation_event_broadcast_job.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="55" />
+                <state relative-caret-position="285">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -128,9 +128,9 @@
         <option value="$PROJECT_DIR$/app/channels/chat_channel.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/models/chat_message.rb" />
-        <option value="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/controllers/chat_messages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" />
         <option value="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" />
       </list>
     </option>
@@ -416,12 +416,12 @@
       <workItem from="1524626523267" duration="1844000" />
       <workItem from="1524648690625" duration="2411000" />
       <workItem from="1524697957492" duration="669000" />
-      <workItem from="1524698688534" duration="527000" />
+      <workItem from="1524698688534" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47896000" />
+    <option name="totallyTimeSpent" value="48175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
@@ -817,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

@@ -1,2 +1,2 @@
-json.extract! chat_message, [:id, :content, :user_id, :user['username'], :created_at]
+json.extract! chat_message, [:id, :content, :user_id, :user, :created_at]
 
