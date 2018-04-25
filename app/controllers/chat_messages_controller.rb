@@ -1,6 +1,10 @@
 class CoordinatesController < ApplicationController
   before_action :set_chat_message, only: [:show, :edit, :update, :destroy]
 
+  def index
+    @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
+    render json: @latest_messages
+  end
 
   def create
     @chat_message = ChatMessage.new(chat_message_params)
