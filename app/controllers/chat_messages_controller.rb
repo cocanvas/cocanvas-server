@@ -2,6 +2,7 @@ class ChatMessagesController < ApplicationController
   before_action :set_chat_message, only: [:show, :edit, :update, :destroy]
 
   def index
+
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
     # render json: @latest_messages.to_json
   end
