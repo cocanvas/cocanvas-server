@@ -1,4 +1,4 @@
-class CoordinatesController < ApplicationController
+class ChatMessagesController < ApplicationController
   before_action :set_chat_message, only: [:show, :edit, :update, :destroy]
 
   def index
