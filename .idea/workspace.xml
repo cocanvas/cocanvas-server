@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" afterDir="false" />
-    </list>
+    <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -84,8 +81,8 @@
           <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
-                  <caret line="96" selection-start-line="96" selection-end-line="96" />
+                <state relative-caret-position="710">
+                  <caret line="94" column="276" selection-start-line="94" selection-start-column="276" selection-end-line="94" selection-end-column="276" />
                 </state>
               </provider>
             </entry>
@@ -169,10 +166,10 @@
         <option value="$PROJECT_DIR$/app/controllers/chat_messages_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/channels/chat_channel.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/models/chat_message.rb" />
         <option value="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -430,15 +427,15 @@
       <workItem from="1524380181126" duration="74000" />
       <workItem from="1524380274327" duration="12411000" />
       <workItem from="1524469312523" duration="27530000" />
-      <workItem from="1524626523267" duration="605000" />
+      <workItem from="1524626523267" duration="1238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43050000" />
+    <option name="totallyTimeSpent" value="43683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1049" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32177162" />
@@ -799,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="710">
+          <caret line="94" column="276" selection-start-line="94" selection-start-column="276" selection-end-line="94" selection-end-column="276" />
         </state>
       </provider>
     </entry>
