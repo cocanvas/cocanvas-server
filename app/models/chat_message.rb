@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # == Schema Information
 #
 # Table name: chat_messages
@@ -10,8 +10,6 @@
 #  updated_at :datetime         not null
 #
 
-=======
->>>>>>> ce041840f91cf7b7e4c08d2fe3425869e5eb325d
 class ChatMessage < ApplicationRecord
   belongs_to :user
   after_create_commit do
