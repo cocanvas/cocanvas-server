@@ -3,7 +3,7 @@ class CoordinatesController < ApplicationController
 
   def index
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
-
+    render json: @latest_message.to_json
   end
 
   def create
