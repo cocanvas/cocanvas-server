@@ -9,9 +9,9 @@ class CoordinatesController < ApplicationController
     else
       @latest_coords = Coordinate.all
     end
-    coordinates = Coordinate.all
-    oldestCoord = Coordinate.first
-    oldestCoord.destroy
+    # coordinates = Coordinate.all
+    # oldestCoord = Coordinate.first
+    # oldestCoord.destroy
     # if @coords_num > 9000
     #   oldestCoords = Coordinate.order('created_at ASC').limit(100)
     #   oldestCoords.destroy

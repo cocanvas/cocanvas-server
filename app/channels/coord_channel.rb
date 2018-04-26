@@ -14,6 +14,7 @@ class CoordChannel < ApplicationCable::Channel
       y: coord.fetch('y'),
       user_id: coord.fetch('user_id')
     )
-    
+    oldestCoord = Coordinate.first
+    oldestCoord.destroy
   end
 end
