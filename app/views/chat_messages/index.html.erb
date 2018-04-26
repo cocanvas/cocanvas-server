@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Chat Messages</h1>
+<p>Total number of msgs: <%= @msgs_num %></p>
+<table>
+  <tbody>
+    <% @msgs.each do |msg| %>
+      <tr>
+        <td><%= msgs.user.username %></td>
+        <td><%= msgs.content %></td>
+        <td><%= msgs.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
