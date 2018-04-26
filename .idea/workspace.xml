@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" afterDir="false" />
-    </list>
+    <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -449,16 +446,15 @@
       <workItem from="1524626523267" duration="1844000" />
       <workItem from="1524648690625" duration="2411000" />
       <workItem from="1524697957492" duration="669000" />
-      <workItem from="1524698688534" duration="5920000" />
+      <workItem from="1524698688534" duration="6518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53289000" />
+    <option name="totallyTimeSpent" value="53887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24386339" />
       <window_info anchor="bottom" id="TODO" order="6" />
