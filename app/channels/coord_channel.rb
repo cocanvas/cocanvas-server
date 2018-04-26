@@ -14,12 +14,6 @@ class CoordChannel < ApplicationCable::Channel
       y: coord.fetch('y'),
       user_id: coord.fetch('user_id')
     )
-    coordinates = Coordinate.all
-    coords_num = Coordinate.count
-    oldestCoord = Coordinate.order('created_at ASC').limit(1)
-    oldestCoord.destroy
-    # if coords_num > 9000
-    #   oldestCoords = Coordinate.order('created_at ASC').limit(100)
-    # end
+    
   end
 end
