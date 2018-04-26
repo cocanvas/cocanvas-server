@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,7 +34,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/chat_messages/index.json.jbuilder">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="57">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -44,7 +43,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="76">
-                  <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+                  <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -58,11 +57,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.json.jbuilder" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
           <file leaf-file-name="_coordinate.json.jbuilder" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
               <provider selected="true" editor-type-id="text-editor">
@@ -72,20 +66,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="message_creation_event_broadcast_job.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="message_creation_event_broadcast_job.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+                <state relative-caret-position="285">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="coordinates_controller.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="coordinates_controller.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="14" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
+                <state relative-caret-position="152">
+                  <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
                 </state>
               </provider>
             </entry>
@@ -142,7 +136,6 @@
         <option value="$PROJECT_DIR$/lib/json_web_token.rb" />
         <option value="$PROJECT_DIR$/app/auth/authenticate_user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/coordinate.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -165,6 +158,7 @@
         <option value="$PROJECT_DIR$/app/controllers/chat_messages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" />
       </list>
     </option>
   </component>
@@ -449,29 +443,30 @@
       <workItem from="1524626523267" duration="1844000" />
       <workItem from="1524648690625" duration="2411000" />
       <workItem from="1524697957492" duration="669000" />
-      <workItem from="1524698688534" duration="5920000" />
+      <workItem from="1524698688534" duration="6518000" />
+      <workItem from="1524729688202" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53289000" />
+    <option name="totallyTimeSpent" value="55606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24386339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24653149" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.11487965" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -484,19 +479,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16061899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.11487965" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.11487965" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -535,6 +530,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/chat_messages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -806,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/chat_messages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -823,7 +818,14 @@
     <entry file="file://$PROJECT_DIR$/app/views/chat_messages/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -834,9 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -844,17 +843,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
+    <entry file="file://$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="152">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
         </state>
       </provider>
     </entry>
