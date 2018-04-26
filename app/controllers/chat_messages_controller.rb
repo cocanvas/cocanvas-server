@@ -4,7 +4,7 @@ class ChatMessagesController < ApplicationController
   def index
 
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
-    render json: @latest_messages
+    # render json: @latest_messages
   end
 
   def create
