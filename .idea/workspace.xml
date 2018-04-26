@@ -43,7 +43,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="57">
-                  <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+                  <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -448,12 +448,12 @@
       <workItem from="1524626523267" duration="1844000" />
       <workItem from="1524648690625" duration="2411000" />
       <workItem from="1524697957492" duration="669000" />
-      <workItem from="1524698688534" duration="3899000" />
+      <workItem from="1524698688534" duration="4516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51268000" />
+    <option name="totallyTimeSpent" value="51885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
@@ -853,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
