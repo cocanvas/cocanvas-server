@@ -12,5 +12,7 @@ class ChatChannel < ApplicationCable::Channel
       content: msg.fetch('content'),
       user_id: msg.fetch('user_id')
     )
+    oldestMsg = ChatMessage.first
+    oldestMsg.destroy
   end
 end

@@ -2,25 +2,24 @@ class ChatMessagesController < ApplicationController
   before_action :set_chat_message, only: [:show, :edit, :update, :destroy]
 
   def index
-
     @latest_messages = ChatMessage.order('created_at DESC').limit(10).reverse
-    # render json: @latest_messages
-
+    @msgs_num = ChatMessage.count
+    @msgs = ChatMessage.all
   end
 
-  def create
-    @chat_message = ChatMessage.new(chat_message_params)
-    respond_to do |format|
-      if @chat_message.save
-
-        format.json { render json: @chat_message.to_json }
-
-      else
-        format.html { render :new }
-        format.json { render json: @coordinate.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # def create
+  #   @chat_message = ChatMessage.new(chat_message_params)
+  #   respond_to do |format|
+  #     if @chat_message.save
+  #
+  #       format.json { render json: @chat_message.to_json }
+  #
+  #     else
+  #       format.html { render :new }
+  #       format.json { render json: @coordinate.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
 
   private
