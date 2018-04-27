@@ -29,8 +29,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# JSON web tokens - encoder/decoder to send auth tokens to frontend app
 gem 'jwt'
+# to allow cross-origin access for AJAX requests to the rails server
 gem 'rack-cors', :require => 'rack/cors'
+# related to setting up user auth with web tokens
 gem 'simple_command'
 
 gem 'jquery-rails'
