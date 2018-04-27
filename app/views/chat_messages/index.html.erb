@@ -6,9 +6,9 @@
   <tbody>
     <% @msgs.each do |msg| %>
       <tr>
-        <td><%= msgs.user.username %></td>
-        <td><%= msgs.content %></td>
-        <td><%= msgs.created_at %></td>
+        <td><%= msg.user.username %></td>
+        <td><%= msg.content %></td>
+        <td><%= msg.created_at %></td>
       </tr>
     <% end %>
   </tbody>
