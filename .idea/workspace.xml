@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab39e92a-6cf9-4317-aeff-075c07ec0171" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -19,16 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_coordinate.json.jbuilder" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
+      <file leaf-file-name="_chat_message.json.jbuilder" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.json.jbuilder" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_coordinate.json.jbuilder" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json.jbuilder" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -49,8 +60,8 @@
       <file leaf-file-name="coordinates_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="494">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -83,15 +94,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -157,9 +159,9 @@
         <option value="$PROJECT_DIR$/app/jobs/message_creation_event_broadcast_job.rb" />
         <option value="$PROJECT_DIR$/app/views/coordinates/index.html.erb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/controllers/coordinates_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/coordinates/index.json.jbuilder" />
       </list>
     </option>
   </component>
@@ -448,12 +450,12 @@
       <workItem from="1524729688202" duration="2042000" />
       <workItem from="1524793504815" duration="1322000" />
       <workItem from="1524795443311" duration="2942000" />
-      <workItem from="1524971937587" duration="1934000" />
+      <workItem from="1524971937587" duration="2775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62127000" />
+    <option name="totallyTimeSpent" value="62968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
@@ -756,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/channels/chat_channel.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -829,9 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/coordinates/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/coordinates/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -839,10 +831,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat_messages/_chat_message.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/coordinates/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/coordinates_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="494">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -850,13 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/coordinates/_coordinate.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

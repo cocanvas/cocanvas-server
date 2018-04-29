@@ -9,8 +9,17 @@ class CoordinatesController < ApplicationController
     else
       @latest_coords = Coordinate.all
     end
-    @base64_coords = Base64.encode64(@latest_coords.to_s)
-    # render plain: @base64_coords
+    @coords = { c: [] }
+    @latest_coords.each do |v|
+
+      a = []
+      a << v['colour']
+      a << v['x']
+      a << v['y']
+      @coords['c'] << a
+
+    end
+    render json: @coords
   end
 
   # DELETE /coordinates/1
