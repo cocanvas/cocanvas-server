@@ -10,7 +10,7 @@ class CoordinatesController < ApplicationController
       @latest_coords = Coordinate.all
     end
     @base64_coords = Base64.encode64(@latest_coords.to_s)
-    render text: @base64_coords
+    p @base64_coords
   end
 
   # DELETE /coordinates/1
