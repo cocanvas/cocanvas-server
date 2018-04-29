@@ -9,7 +9,7 @@ class CoordinatesController < ApplicationController
     else
       @latest_coords = Coordinate.all
     end
-    @coords = { c: [] }
+    @coords = { 'c' => [] }
     @latest_coords.each do |v|
 
       a = []
