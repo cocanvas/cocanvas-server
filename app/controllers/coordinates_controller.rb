@@ -13,7 +13,9 @@ class CoordinatesController < ApplicationController
     @latest_coords.each do |v|
 
       a = []
-      a << v['colour']
+      colour = v['colour']
+      colour[0] = ''
+      a << colour
       a << v['x']
       a << v['y']
       @coords['c'] << a
